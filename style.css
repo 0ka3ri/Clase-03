@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;800&display=swap');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: rgb(236, 235, 235);
+    }
+
+#contenedortítulobotones {
+    color: rgb(61, 61, 61);
+    display:flex;
+    margin: 80px;
+    margin-bottom: 15px;
+    padding: 60px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 3px rgb(223, 223, 223);
+    }
+
+#contenedor-título {
+    width: 630px;
+    padding-right: 35px; 
+    }
+
+h1 {
+    font-size: 47px;
+    font-weight: 800;
+    margin-bottom: 3px;
+    }
+
+h2 {
+    font-size: 47px;
+    font-weight: 300;
+    color: rgb(94, 93, 93);
+    margin-top: 0px;
+    }
+
+#contenedor-botones {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+
+button {
+    height: 80px;
+    width: 350px;
+    font-size: 37px;
+    font-weight: 800;
+    margin: 10px;
+    border: 0px;
+    padding-left: 15px;
+    display:flex;
+    align-items: center;
+    border-radius: 10px
+    }
+
+#Download {
+    color: white;
+    background-color: rgb(103, 141, 223); 
+    }   
+
+#More-info {
+    color: rgb(94, 93, 93);
+    }
+
+#contenedor-paneles {
+    margin: 50px;
+    display:flex;
+    flex-direction: row;
+    margin-top: 0px;
+    padding-top: 0px;
+    }
+
+.paneles {
+    width: 355px;
+    background-color: white;
+    margin: 30px;
+    border-top-right-radius: 10%;
+    border-top-left-radius: 10%;
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+    box-shadow: 0px 3px rgb(223, 223, 223);
+    border-radius: 10px;
+    }
+
+h3 {
+    margin-top: 25px;
+    margin-bottom: 5px;
+    padding-left: 25px;
+    font-size: 16px;
+    }
+
+img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    }
+
+p {
+    margin-top: 0px;
+    padding-left: 25px; 
+    padding-right: 20px;
+    padding-right: 20px;
+    font-size: 16px;
+    font-weight: 300;
+    }
+
